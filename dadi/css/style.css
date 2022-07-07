@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    background-color: rgb(158, 158, 54);
+}
+
+.container {
+    max-width: 90%;
+    width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.person, .bot {
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    color: red;
+    margin-left: 10px;
+}
